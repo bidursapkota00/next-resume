@@ -386,7 +386,7 @@ export default function Home() {
             <div className="exp-iconc">
               <img src="/head.png" alt="Trainings icon" className="exp-icon" />
             </div>
-            <h2 className="font exp-exp">COURSES/ TRAININGS</h2>
+            <h2 className="font exp-exp">COURSES / TRAININGS</h2>
             {data.trainings.map((e, i) => (
               <div key={i} className="exp-cont">
                 <div className="exp-titlec">
@@ -551,10 +551,10 @@ export default function Home() {
                   <span className="font ref-text3">Contact:&nbsp;</span>
                   <Link
                     target="_blank"
-                    href={`tel:${r.tel}`}
+                    href={`tel:+977${r.tel}`}
                     className="font ref-text4"
                   >
-                    {r.tel}
+                    +977&nbsp;{r.tel}
                   </Link>
                 </div>
                 <div className="ref-row">
