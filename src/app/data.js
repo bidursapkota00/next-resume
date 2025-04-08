@@ -4,10 +4,12 @@ export const data = {
   in: "https://www.linkedin.com/in/bidur-sapkota-3aa054203/",
   web: "https://www.bidursapkota.com.np/",
   tw: "#",
-  job: "Lecturer",
+  // job: "Lecturer",
+  job: "",
   profile: "/profile1.jpg",
   about:
-    "Lecturer at Asian College of Higher Studies. Previously worked as a web developer, specializing in modern JavaScript frameworks and scalable applications. Graduated in Electronics, Communication, and Information Engineering, combining technical expertise with a commitment to education and innovation. Adept at mentoring students, developing curriculum, and bridging the gap between theoretical concepts and real-world applications.",
+    "Electronics, Communication and Information Engineering graduate with strong expertise in web and app development, embedded systems, and full-stack solutions. Currently working as a Lecturer at Asian College of Higher Studies, with a solid foundation in academic instruction and student mentorship. Previously served as a Web Developer at Dallotech, delivering dynamic, responsive websites using Next.js, GSAP, and API integrations. Demonstrated proficiency in building impactful projects such as a Smart Water Meter with payment integration and a Job Application platform. Backed by diverse training in FastAPI, Next.js, MySQL, and Flutter, and recognized for excellence with a first-place award at the Yatra 4.0 Hardware Model Exhibition. Passionate about IoT, ethical hacking, and continuously exploring cutting-edge tech to solve real-world problems",
+  // "Lecturer at Asian College of Higher Studies. Previously worked as a web developer, specializing in modern JavaScript frameworks and scalable applications. Graduated in Electronics, Communication, and Information Engineering, combining technical expertise with a commitment to education and innovation. Adept at mentoring students, developing curriculum, and bridging the gap between theoretical concepts and real-world applications.",
   phone: "9865711881",
   email: "bidursapkota00@gmail.com",
   address: "Chunikhel, Lalitpur",
@@ -23,7 +25,7 @@ export const data = {
         "Providing support to students and other colleagues.",
         "Staying current by reading widely and producing published work in the field.",
       ],
-      startDate: "Oct 2023",
+      startDate: "May 2023",
       endDate: "Now",
     },
     {
@@ -67,6 +69,16 @@ export const data = {
     { name: "Hardware Coding", rating: 3 },
   ],
   projects: [
+    {
+      title: "Codeyalaya",
+      expertise: "Online Coding Institute",
+      description: [
+        "Video lessons and start / end code files for each lessons",
+        "Students can buy and watch courses through website or mobile app",
+        "Integrated payment system",
+      ],
+      link: "https://codeyalaya.bidursapkota.com.np/",
+    },
     {
       title: "Smart Water Meter",
       expertise: "College Major Project",
@@ -152,31 +164,31 @@ export const data = {
       organization: "Tech Axis",
       github: "",
     },
-    {
-      title: "Machine Learning A-Z: AI, Python & R + ChatGPT Prize",
-      organization: "Udemy",
-      github: "",
-    },
-    {
-      title: "Complete Data Science,Machine Learning,DL,NLP Bootcamp",
-      organization: "Udemy",
-      github: "",
-    },
-    {
-      title: "GitHub Actions - The Complete Guide",
-      organization: "Udemy",
-      github: "",
-    },
+    // {
+    //   title: "Machine Learning A-Z: AI, Python & R + ChatGPT Prize",
+    //   organization: "Udemy",
+    //   github: "",
+    // },
+    // {
+    //   title: "Complete Data Science,Machine Learning,DL,NLP Bootcamp",
+    //   organization: "Udemy",
+    //   github: "",
+    // },
+    // {
+    //   title: "GitHub Actions - The Complete Guide",
+    //   organization: "Udemy",
+    //   github: "",
+    // },
     {
       title: "Algorithms & Data Structures for Beginners",
       organization: "neetcode.io",
       github: "",
     },
-    {
-      title: "Advanced Algorithms",
-      organization: "neetcode.io",
-      github: "",
-    },
+    // {
+    //   title: "Advanced Algorithms",
+    //   organization: "neetcode.io",
+    //   github: "",
+    // },
     {
       title: "Full Stack Development",
       organization: "neetcode.io",
@@ -187,71 +199,71 @@ export const data = {
       organization: "neetcode.io",
       github: "",
     },
-    {
-      title: "Docker & Kubernetes: The Practical Guide",
-      organization: "Udemy",
-      github: "",
-    },
-    {
-      title: "Python Django The Practical Guide",
-      organization: "Udemy",
-      github: "",
-    },
-    {
-      title: "Adobe Photoshop CC - Essentials Training Course",
-      organization: "Udemy",
-      github: "",
-    },
-    {
-      title: "Design Patterns in Python",
-      organization: "Udemy",
-      github: "",
-    },
-    {
-      title: "The Ultimate Design Patterns Series",
-      organization: "codewithmosh.com",
-      github: "",
-    },
-    {
-      title: "NestJS - Building Real Project API From Scratch",
-      organization: "Udemy",
-      github: "",
-    },
-    {
-      title: "NestJs Modern ways to build APIs with Typescript and NestJs",
-      organization: "Udemy",
-      github: "",
-    },
-    {
-      title: "Become a Three.js developer",
-      organization: "threejs-journey.com - Bruno Simon",
-      github: "",
-    },
-    {
-      title: "Complete Modern PHP Developer Course",
-      organization: "Udemy",
-      github: "",
-    },
-    {
-      title: "Master Laravel 10 for Beginners & Intermediate",
-      organization: "Udemy",
-      github: "",
-    },
-    {
-      title: "Linux Shell Scripting A Project-Based Approach to Learning",
-      organization: "Udemy",
-      github: "",
-    },
-    {
-      title: "Complete Generative AI Course With Langchain and Huggingface",
-      organization: "Udemy",
-      github: "",
-    },
-    {
-      title: "Figma UI UX Design Essentials",
-      organization: "Udemy",
-      github: "",
-    },
+    // {
+    //   title: "Docker & Kubernetes: The Practical Guide",
+    //   organization: "Udemy",
+    //   github: "",
+    // },
+    // {
+    //   title: "Python Django The Practical Guide",
+    //   organization: "Udemy",
+    //   github: "",
+    // },
+    // {
+    //   title: "Adobe Photoshop CC - Essentials Training Course",
+    //   organization: "Udemy",
+    //   github: "",
+    // },
+    // {
+    //   title: "Design Patterns in Python",
+    //   organization: "Udemy",
+    //   github: "",
+    // },
+    // {
+    //   title: "The Ultimate Design Patterns Series",
+    //   organization: "codewithmosh.com",
+    //   github: "",
+    // },
+    // {
+    //   title: "NestJS - Building Real Project API From Scratch",
+    //   organization: "Udemy",
+    //   github: "",
+    // },
+    // {
+    //   title: "NestJs Modern ways to build APIs with Typescript and NestJs",
+    //   organization: "Udemy",
+    //   github: "",
+    // },
+    // {
+    //   title: "Become a Three.js developer",
+    //   organization: "threejs-journey.com - Bruno Simon",
+    //   github: "",
+    // },
+    // {
+    //   title: "Complete Modern PHP Developer Course",
+    //   organization: "Udemy",
+    //   github: "",
+    // },
+    // {
+    //   title: "Master Laravel 10 for Beginners & Intermediate",
+    //   organization: "Udemy",
+    //   github: "",
+    // },
+    // {
+    //   title: "Linux Shell Scripting A Project-Based Approach to Learning",
+    //   organization: "Udemy",
+    //   github: "",
+    // },
+    // {
+    //   title: "Complete Generative AI Course With Langchain and Huggingface",
+    //   organization: "Udemy",
+    //   github: "",
+    // },
+    // {
+    //   title: "Figma UI UX Design Essentials",
+    //   organization: "Udemy",
+    //   github: "",
+    // },
     // devops
     // seo
     // java spring boot
