@@ -9,7 +9,7 @@ const lato = Lato({
 });
 
 export const metadata = {
-  title: "Resume of Bidur Sapkota",
+  title: "Bidur-Sapkota-Resume",
   description: "CV of Bidur Sapkota",
 };
 

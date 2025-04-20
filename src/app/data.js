@@ -145,6 +145,18 @@ export const data = {
       github: "https://github.com/bidursapkota00/next-auth-v5-advanced-guide",
     },
     {
+      title: "Build Responsive Real-World Websites with HTML and CSS",
+      organization: "Udemy",
+      github:
+        "https://github.com/bidursapkota00/Build-Responsive-Real-World-Websites-with-HTML-and-CSS",
+    },
+    {
+      title: "Learn HTML and CSS in 7 Days | Web Developer Bootcamp",
+      organization: "Udemy",
+      github:
+        "https://github.com/bidursapkota00/Learn-HTML-and-CSS-in-7-Days---Web-Developer-Bootcamp",
+    },
+    {
       title: "NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)",
       organization: "Udemy",
       github: "",

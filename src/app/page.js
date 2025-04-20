@@ -17,7 +17,7 @@ export default function Home() {
     function getPageHeightInMM() {
       const pageHeightPx = document.querySelector(".page")?.scrollHeight || 0;
       const mmPerPx = 25.4 / 96;
-      return (pageHeightPx * mmPerPx).toFixed(0);
+      return Math.ceil(pageHeightPx * mmPerPx);
     }
 
     setPageHeight(getPageHeightInMM());
