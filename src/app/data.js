@@ -73,7 +73,7 @@ export const data = {
       title: "Codeyalaya",
       expertise: "Online Coding Institute",
       description: [
-        "Create video lessons and start / end code files for each lessons",
+        "Create video lessons and starter / final code files for each lessons",
         "Students can buy and watch courses through website or mobile app",
         "Integrated payment system",
       ],
@@ -145,6 +145,11 @@ export const data = {
       github: "https://github.com/bidursapkota00/next-auth-v5-advanced-guide",
     },
     {
+      title: "System Design for Beginners",
+      organization: "neetcode.io",
+      github: "https://github.com/bidursapkota00/System-Design-for-Beginners",
+    },
+    {
       title: "Build Responsive Real-World Websites with HTML and CSS",
       organization: "Udemy",
       github:
@@ -206,11 +211,7 @@ export const data = {
       organization: "neetcode.io",
       github: "",
     },
-    {
-      title: "System Design for Beginners",
-      organization: "neetcode.io",
-      github: "",
-    },
+
     // {
     //   title: "Docker & Kubernetes: The Practical Guide",
     //   organization: "Udemy",
