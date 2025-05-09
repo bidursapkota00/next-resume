@@ -74,16 +74,17 @@ export default function Home() {
             <div className="links">
               <div className="link">
                 <img
-                  src="/fb.png"
-                  alt="Facebook icon"
+                  src="/github.png"
+                  alt="Github icon"
                   className="social-icon"
+                  style={{ width: "20pt", height: "20pt", marginRight: "3pt" }}
                 />
                 <Link
                   target="_blank"
-                  href={data.fb}
+                  href={data.github}
                   className="social-text font"
                 >
-                  Facebook
+                  Github
                 </Link>
               </div>
               <div className="link">

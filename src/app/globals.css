@@ -74,7 +74,7 @@ body,
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 24pt;
+  margin-bottom: 16pt;
 }
 
 .links {
@@ -85,7 +85,7 @@ body,
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-bottom: 5pt;
+  margin-bottom: 4pt;
 }
 
 .social-icon {

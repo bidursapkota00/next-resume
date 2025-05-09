@@ -1,6 +1,7 @@
 export const data = {
   name: "BIDUR SAPKOTA",
   fb: "https://www.facebook.com/bdur.sapkota",
+  github: "https://github.com/bidursapkota00?tab=repositories",
   in: "https://www.linkedin.com/in/bidur-sapkota-3aa054203/",
   web: "https://www.bidursapkota.com.np/",
   tw: "#",
@@ -77,7 +78,7 @@ export const data = {
         "Students can buy and watch courses through website or mobile app",
         "Integrated payment system",
       ],
-      link: "https://codeyalaya.bidursapkota.com.np/",
+      link: "https://github.com/bidursapkota00/codeyalaya-web-frontend",
     },
     {
       title: "Smart Water Meter",
@@ -87,7 +88,7 @@ export const data = {
         "Apk Development with integrated khalti payment gateway for clients",
         "Web Development with dashboard for water service providers",
       ],
-      link: "#",
+      link: "https://github.com/bidursapkota00/Major-Project",
     },
     {
       title: "Online Job App",
@@ -143,6 +144,12 @@ export const data = {
       title: "Next Auth V5 - Advanced Guide",
       organization: "Youtube",
       github: "https://github.com/bidursapkota00/next-auth-v5-advanced-guide",
+    },
+    {
+      title: "Full Stack Development - System Design",
+      organization: "neetcode.io",
+      github:
+        "https://github.com/bidursapkota00/full-stack-development---system-design",
     },
     {
       title: "System Design for Beginners",
@@ -206,12 +213,6 @@ export const data = {
     //   organization: "neetcode.io",
     //   github: "",
     // },
-    {
-      title: "Full Stack Development",
-      organization: "neetcode.io",
-      github: "",
-    },
-
     // {
     //   title: "Docker & Kubernetes: The Practical Guide",
     //   organization: "Udemy",
