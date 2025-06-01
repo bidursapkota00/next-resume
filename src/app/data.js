@@ -2,12 +2,12 @@ export const data = {
   name: "BIDUR SAPKOTA",
   fb: "https://www.facebook.com/bdur.sapkota",
   github: "https://github.com/bidursapkota00?tab=repositories",
-  in: "https://www.linkedin.com/in/bidur-sapkota-3aa054203/",
+  in: "https://www.linkedin.com/in/bidur-sapkota-b204142a8/",
   web: "https://www.bidursapkota.com.np/",
   tw: "#",
   // job: "Lecturer",
   job: "",
-  profile: "/profile1.jpg",
+  profile: "/profile3.png",
   about:
     "Electronics, Communication and Information Engineering graduate with strong expertise in web and app development, embedded systems, and full-stack solutions. Currently working as a Lecturer at Asian College of Higher Studies, with a solid foundation in academic instruction and student mentorship. Previously served as a Web Developer at Dallotech, delivering dynamic, responsive websites using Next.js, GSAP, and API integrations. Demonstrated proficiency in building impactful projects such as a Smart Water Meter with payment integration and a Job Application platform. Backed by diverse training in FastAPI, Next.js, MySQL, and Flutter, and recognized for excellence with a first-place award at the Yatra 4.0 Hardware Model Exhibition. Passionate about IoT, ethical hacking, and continuously exploring cutting-edge tech to solve real-world problems",
   // "Lecturer at Asian College of Higher Studies. Previously worked as a web developer, specializing in modern JavaScript frameworks and scalable applications. Graduated in Electronics, Communication, and Information Engineering, combining technical expertise with a commitment to education and innovation. Adept at mentoring students, developing curriculum, and bridging the gap between theoretical concepts and real-world applications.",
@@ -15,20 +15,6 @@ export const data = {
   email: "bidursapkota00@gmail.com",
   address: "Chunikhel, Lalitpur",
   experience: [
-    {
-      jobTitle: "Lecturer",
-      organization: "Asian College of Higher Studies",
-      description: [
-        "Preparing and delivering lectures, tutorials, workshops, and seminars.",
-        "Collaborating with other academics to improve teaching methods and knowledge base.",
-        "Setting and grading assignments, tests, and exams.",
-        "Supervising students on their projects.",
-        "Providing support to students and other colleagues.",
-        "Staying current by reading widely and producing published work in the field.",
-      ],
-      startDate: "May 2023",
-      endDate: "Now",
-    },
     {
       jobTitle: "Web Developer",
       organization: "Dallotech pvt. ltd.",
@@ -41,6 +27,42 @@ export const data = {
       ],
       startDate: "Oct 2021",
       endDate: "Jun 2022",
+    },
+    {
+      jobTitle: "Lecturer",
+      organization: "Asian College of Higher Studies",
+      description: [
+        "Preparing and delivering lectures, tutorials, workshops, and seminars.",
+        "Collaborating with other academics to improve teaching methods and knowledge base.",
+        "Setting and grading assignments, tests, and exams.",
+        "Supervising students on their projects.",
+        "Providing support to students and other colleagues.",
+        "Staying current by reading widely and producing published work in the field.",
+      ],
+      startDate: "Sep 2023",
+      endDate: "Now",
+    },
+    {
+      jobTitle: "Web Development Trainer",
+      organization: "Asian College of Higher Studies",
+      description: [
+        "Preparing codes for HTML, CSS, Js, Ts, React, Node, Express, Database",
+        "Fostering project based learning",
+        "Staying current by reading widely and producing published work in the field.",
+      ],
+      startDate: "Sep 2023",
+      endDate: "Now",
+    },
+    {
+      jobTitle: "Teaching Assistant",
+      organization: "National College of Engineering",
+      description: [
+        "Delivering lab lectures and tutorials",
+        "Setting and grading assignments, tests, and exams.",
+        "Providing support to students and other colleagues.",
+      ],
+      startDate: "May 2025",
+      endDate: "Now",
     },
   ],
   education: [
@@ -171,7 +193,8 @@ export const data = {
     {
       title: "NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)",
       organization: "Udemy",
-      github: "",
+      github:
+        "https://github.com/bidursapkota00/NodeJS---The-Complete-Guide-MVC-REST-APIs-GraphQL-Deno",
     },
     {
       title: "Next JS: The Complete Developer's Guide",
