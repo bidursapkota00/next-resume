@@ -1,3 +1,17 @@
+function About() {
+  return (
+    <>
+      <b>Electronics, Communication, and Information Engineer</b> with strong
+      expertise in Web and Mobile app development, embedded systems, and{" "}
+      <b>Full-stack solutions</b>. Possess a solid foundation in{" "}
+      <b>Data Structures & Algorithms</b> and <b>System Design</b>. Previously
+      worked as a <b>Web Developer at Dallotech</b>, where I built dynamic,
+      responsive websites using <b>Node.js, Next.js</b>, GSAP, and integrated
+      APIs to deliver seamless user experiences.
+    </>
+  );
+}
+
 export const data = {
   name: "BIDUR SAPKOTA",
   fb: "https://www.facebook.com/bdur.sapkota",
@@ -8,8 +22,9 @@ export const data = {
   // job: "Lecturer",
   job: "",
   profile: "/profile3.png",
-  about:
-    "Electronics, Communication and Information Engineering graduate with strong expertise in web and app development, embedded systems, and full-stack solutions. Currently working as a Lecturer at Asian College of Higher Studies, with a solid foundation in academic instruction and student mentorship. Previously served as a Web Developer at Dallotech, delivering dynamic, responsive websites using Next.js, GSAP, and API integrations. Demonstrated proficiency in building impactful projects such as a Smart Water Meter with payment integration and a Job Application platform. Backed by diverse training in FastAPI, Next.js, MySQL, and Flutter, and recognized for excellence with a first-place award at the Yatra 4.0 Hardware Model Exhibition. Passionate about IoT, ethical hacking, and continuously exploring cutting-edge tech to solve real-world problems",
+  about: <About />,
+  // "<b>Electronics, Communication, and Information Engineer</b> with strong expertise in web and mobile app development, embedded systems, and <b>full-stack solutions</b>. Possess a solid foundation in <b>Data Structures & Algorithms</b> and <b>System Design</b>. Previously worked as a <b>Web Developer at Dallotech</b>, where I built dynamic, responsive websites using <b>Node.js, Next.js</b>, GSAP, and integrated APIs to deliver seamless user experiences",
+  // "Electronics, Communication and Information Engineering graduate with strong expertise in web and app development, embedded systems, and full-stack solutions. Currently working as a Lecturer at Asian College of Higher Studies, with a solid foundation in academic instruction and student mentorship. Previously served as a Web Developer at Dallotech, delivering dynamic, responsive websites using Next.js, GSAP, and API integrations. Demonstrated proficiency in building impactful projects such as a Smart Water Meter with payment integration and a Job Application platform. Backed by diverse training in FastAPI, Next.js, MySQL, and Flutter, and recognized for excellence with a first-place award at the Yatra 4.0 Hardware Model Exhibition. Passionate about IoT, ethical hacking, and continuously exploring cutting-edge tech to solve real-world problems",
   // "Lecturer at Asian College of Higher Studies. Previously worked as a web developer, specializing in modern JavaScript frameworks and scalable applications. Graduated in Electronics, Communication, and Information Engineering, combining technical expertise with a commitment to education and innovation. Adept at mentoring students, developing curriculum, and bridging the gap between theoretical concepts and real-world applications.",
   phone: "9865711881",
   email: "bidursapkota00@gmail.com",
@@ -29,6 +44,17 @@ export const data = {
       endDate: "Jun 2022",
     },
     {
+      jobTitle: "Web Development Trainer",
+      organization: "Asian College of Higher Studies",
+      description: [
+        "Preparing codes for HTML, CSS, Js, Ts, React, Node, Express, Database",
+        "Fostering project based learning",
+        "Staying current by reading widely and producing published work in the field.",
+      ],
+      startDate: "Sep 2023",
+      endDate: "Now",
+    },
+    {
       jobTitle: "Lecturer",
       organization: "Asian College of Higher Studies",
       description: [
@@ -42,28 +68,18 @@ export const data = {
       startDate: "Sep 2023",
       endDate: "Now",
     },
-    {
-      jobTitle: "Web Development Trainer",
-      organization: "Asian College of Higher Studies",
-      description: [
-        "Preparing codes for HTML, CSS, Js, Ts, React, Node, Express, Database",
-        "Fostering project based learning",
-        "Staying current by reading widely and producing published work in the field.",
-      ],
-      startDate: "Sep 2023",
-      endDate: "Now",
-    },
-    {
-      jobTitle: "Teaching Assistant",
-      organization: "National College of Engineering",
-      description: [
-        "Delivering lab lectures and tutorials",
-        "Setting and grading assignments, tests, and exams.",
-        "Providing support to students and other colleagues.",
-      ],
-      startDate: "May 2025",
-      endDate: "Now",
-    },
+
+    // {
+    //   jobTitle: "Teaching Assistant",
+    //   organization: "National College of Engineering",
+    //   description: [
+    //     "Delivering lab lectures and tutorials",
+    //     "Setting and grading assignments, tests, and exams.",
+    //     "Providing support to students and other colleagues.",
+    //   ],
+    //   startDate: "May 2025",
+    //   endDate: "Now",
+    // },
   ],
   education: [
     {
@@ -92,26 +108,17 @@ export const data = {
     { name: "Hardware Coding", rating: 3 },
   ],
   projects: [
-    {
-      title: "Codeyalaya",
-      expertise: "Online Coding Institute",
-      description: [
-        "Create video lessons and starter / final code files for each lessons",
-        "Students can buy and watch courses through website or mobile app",
-        "Integrated payment system",
-      ],
-      link: "https://github.com/bidursapkota00/codeyalaya-web-frontend",
-    },
-    {
-      title: "Smart Water Meter",
-      expertise: "College Major Project",
-      description: [
-        "Circuit design and implementation for measuring household drinking water consumption",
-        "Apk Development with integrated khalti payment gateway for clients",
-        "Web Development with dashboard for water service providers",
-      ],
-      link: "https://github.com/bidursapkota00/Major-Project",
-    },
+    // {
+    //   title: "Codeyalaya",
+    //   expertise: "Online Coding Institute",
+    //   description: [
+    //     "Create video lessons and starter / final code files for each lessons",
+    //     "Students can buy and watch courses through website or mobile app",
+    //     "Integrated payment system",
+    //   ],
+    //   link: "https://github.com/bidursapkota00/codeyalaya-web-frontend",
+    // },
+
     {
       title: "Online Job App",
       expertise: "Entire Frontend",
@@ -131,41 +138,35 @@ export const data = {
       link: "https://dallotech.com/",
     },
     {
-      title: "UrbanSpace",
-      expertise: "Animations",
+      title: "Smart Water Meter",
+      expertise: "College Major Project",
       description: [
-        "Developed a landing page for a Hotel",
-        "Animation with GSAP",
+        "Circuit design and implementation for measuring household drinking water consumption",
+        "Apk Development with integrated khalti payment gateway for clients",
+        "Web Development with dashboard for water service providers",
       ],
-      link: "https://urbanspace.com.np/",
+      link: "https://github.com/bidursapkota00/Major-Project",
     },
+    // {
+    //   title: "UrbanSpace",
+    //   expertise: "Animations",
+    //   description: [
+    //     "Developed a landing page for a Hotel",
+    //     "Animation with GSAP",
+    //   ],
+    //   link: "https://urbanspace.com.np/",
+    // },
   ],
   trainings: [
     {
-      title: "The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert",
-      organization: "Udemy",
-      github: "https://github.com/bidursapkota00/sql",
+      title: "Algorithms & Data Structures for Beginners",
+      organization: "neetcode.io",
+      github: "",
     },
     {
-      title: "FastAPI - The Complete Course 2025 (Beginner + Advanced)",
-      organization: "Udemy",
-      github: "https://github.com/bidursapkota00/fastapi",
-    },
-    {
-      title: "Build a Backend REST API with Python & Django - Advanced",
-      organization: "Udemy",
-      github:
-        "https://github.com/bidursapkota00/Build-a-Backend-REST-API-with-Python-Django---Advanced",
-    },
-    {
-      title: "The Ultimate Java Mastery Series",
-      organization: "codewithmosh.com",
-      github: "https://github.com/bidursapkota00/java-mastery",
-    },
-    {
-      title: "Next Auth V5 - Advanced Guide",
-      organization: "Youtube",
-      github: "https://github.com/bidursapkota00/next-auth-v5-advanced-guide",
+      title: "System Design for Beginners",
+      organization: "neetcode.io",
+      github: "https://github.com/bidursapkota00/System-Design-for-Beginners",
     },
     {
       title: "Full Stack Development - System Design",
@@ -174,21 +175,9 @@ export const data = {
         "https://github.com/bidursapkota00/full-stack-development---system-design",
     },
     {
-      title: "System Design for Beginners",
-      organization: "neetcode.io",
-      github: "https://github.com/bidursapkota00/System-Design-for-Beginners",
-    },
-    {
-      title: "Build Responsive Real-World Websites with HTML and CSS",
+      title: "The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert",
       organization: "Udemy",
-      github:
-        "https://github.com/bidursapkota00/Build-Responsive-Real-World-Websites-with-HTML-and-CSS",
-    },
-    {
-      title: "Learn HTML and CSS in 7 Days | Web Developer Bootcamp",
-      organization: "Udemy",
-      github:
-        "https://github.com/bidursapkota00/Learn-HTML-and-CSS-in-7-Days---Web-Developer-Bootcamp",
+      github: "https://github.com/bidursapkota00/sql",
     },
     {
       title: "NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)",
@@ -202,15 +191,49 @@ export const data = {
       github: "",
     },
     {
-      title: "Flutter & Dart - The Complete Guide",
+      title: "Learn HTML and CSS in 7 Days | Web Developer Bootcamp",
       organization: "Udemy",
-      github: "",
+      github:
+        "https://github.com/bidursapkota00/Learn-HTML-and-CSS-in-7-Days---Web-Developer-Bootcamp",
     },
-    {
-      title: "Basic Python",
-      organization: "Tech Axis",
-      github: "",
-    },
+    // {
+    //   title: "FastAPI - The Complete Course 2025 (Beginner + Advanced)",
+    //   organization: "Udemy",
+    //   github: "https://github.com/bidursapkota00/fastapi",
+    // },
+    // {
+    //   title: "Build a Backend REST API with Python & Django - Advanced",
+    //   organization: "Udemy",
+    //   github:
+    //     "https://github.com/bidursapkota00/Build-a-Backend-REST-API-with-Python-Django---Advanced",
+    // },
+    // {
+    //   title: "The Ultimate Java Mastery Series",
+    //   organization: "codewithmosh.com",
+    //   github: "https://github.com/bidursapkota00/java-mastery",
+    // },
+    // {
+    //   title: "Next Auth V5 - Advanced Guide",
+    //   organization: "Youtube",
+    //   github: "https://github.com/bidursapkota00/next-auth-v5-advanced-guide",
+    // },
+    // {
+    //   title: "Build Responsive Real-World Websites with HTML and CSS",
+    //   organization: "Udemy",
+    //   github:
+    //     "https://github.com/bidursapkota00/Build-Responsive-Real-World-Websites-with-HTML-and-CSS",
+    // },
+
+    // {
+    //   title: "Flutter & Dart - The Complete Guide",
+    //   organization: "Udemy",
+    //   github: "",
+    // },
+    // {
+    //   title: "Basic Python",
+    //   organization: "Tech Axis",
+    //   github: "",
+    // },
     // {
     //   title: "Machine Learning A-Z: AI, Python & R + ChatGPT Prize",
     //   organization: "Udemy",
@@ -226,11 +249,7 @@ export const data = {
     //   organization: "Udemy",
     //   github: "",
     // },
-    {
-      title: "Algorithms & Data Structures for Beginners",
-      organization: "neetcode.io",
-      github: "",
-    },
+
     // {
     //   title: "Advanced Algorithms",
     //   organization: "neetcode.io",

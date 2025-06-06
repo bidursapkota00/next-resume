@@ -213,6 +213,7 @@ body,
   font-size: 16pt;
   color: #373d48;
   padding-left: 16pt;
+  text-transform: uppercase;
 }
 
 .exp-iconc {

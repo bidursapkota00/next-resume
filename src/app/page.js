@@ -378,44 +378,78 @@ export default function Home() {
         ))}
       </div>
       {/* --------------------------------------------------------------------------- */}
-      {/* --------------------------------------TRAININGS---------------------------- */}
+      {/* ----------------------------------CERTIFICATES----------------------------- */}
       {/* --------------------------------------------------------------------------- */}
-      {data.trainings && data.trainings.length > 0 ? (
+      {data.certificates && data.certificates.length > 0 ? (
         <div className="edu">
           <div className="edu-left"></div>
           <div className="exp edu-edu">
             <div className="exp-iconc">
-              <img src="/head.png" alt="Trainings icon" className="exp-icon" />
+              <img
+                src="/head.png"
+                alt="Certification icon"
+                className="exp-icon"
+              />
             </div>
-            <h2 className="font exp-exp">COURSES / TRAININGS</h2>
-            {data.trainings.map((e, i) => (
+            <h2 className="font exp-exp">Certification</h2>
+            {data.certificates.map((e, i) => (
               <div key={i} className="exp-cont">
                 <div className="exp-titlec">
                   <h3 className="font exp-title">{e.title}</h3>
-                  {e.github ? (
-                    <Link target="_blank" href={e.github} className="exp-date">
-                      <span className="font exp-datet">Github Link</span>
-                      <img
-                        src="/external-link.png"
-                        // src="/link.png"
-                        alt="Link icon"
-                        className="exp-cal"
-                        style={{
-                          opacity: 0.7,
-                          marginRight: 0,
-                          marginLeft: "5pt",
-                        }}
-                      ></img>
-                    </Link>
-                  ) : (
-                    <div style={{ height: "37pt" }} />
-                  )}
+                  <div className="exp-date">
+                    <img
+                      src="/calender.png"
+                      alt="Calendar icon"
+                      className="exp-cal"
+                    />
+                    <span className="font exp-datet">
+                      {e.startDate} - {e.endDate}
+                    </span>
+                  </div>
                   <img src="/tick.png" alt="Tick icon" className="exp-tick" />
                 </div>
-                <h4 className="font exp-org">{e.organization}</h4>
               </div>
             ))}
           </div>
+        </div>
+      ) : null}
+      {/* --------------------------------------------------------------------------- */}
+      {/* --------------------------------------TRAININGS---------------------------- */}
+      {/* --------------------------------------------------------------------------- */}
+      {data.trainings && data.trainings.length > 0 ? (
+        <div className="exp">
+          <div className="exp-iconc">
+            <img src="/head.png" alt="Trainings icon" className="exp-icon" />
+          </div>
+          {/* <h2 className="font exp-exp">COURSES / TRAININGS</h2> */}
+          <h2 className="font exp-exp">LEARNINGS</h2>
+          {data.trainings.map((e, i) => (
+            <div key={i} className="exp-cont">
+              <div className="exp-titlec">
+                <h3 className="font exp-title">{e.title}</h3>
+                {e.github ? (
+                  <Link target="_blank" href={e.github} className="exp-date">
+                    <span className="font exp-datet">Github Link</span>
+                    <img
+                      src="/external-link.png"
+                      // src="/link.png"
+                      alt="Link icon"
+                      className="exp-cal"
+                      style={{
+                        opacity: 0.7,
+                        marginRight: 0,
+                        marginLeft: "5pt",
+                      }}
+                    ></img>
+                  </Link>
+                ) : (
+                  <div style={{ height: "37pt" }} />
+                )}
+                <img src="/tick.png" alt="Tick icon" className="exp-tick" />
+              </div>
+              <h4 className="font exp-org">{e.organization}</h4>
+            </div>
+          ))}
         </div>
       ) : null}
       {/* --------------------------------------------------------------------------- */}
@@ -491,33 +525,6 @@ export default function Home() {
             </div>
           </div>
         )}
-      </div>
-      {/* --------------------------------------------------------------------------- */}
-      {/* ----------------------------------CERTIFICATES----------------------------- */}
-      {/* --------------------------------------------------------------------------- */}
-      <div className="exp">
-        <div className="exp-iconc">
-          <img src="/head.png" alt="Certification icon" className="exp-icon" />
-        </div>
-        <h2 className="font exp-exp">Certification</h2>
-        {data.certificates.map((e, i) => (
-          <div key={i} className="exp-cont">
-            <div className="exp-titlec">
-              <h3 className="font exp-title">{e.title}</h3>
-              <div className="exp-date">
-                <img
-                  src="/calender.png"
-                  alt="Calendar icon"
-                  className="exp-cal"
-                />
-                <span className="font exp-datet">
-                  {e.startDate} - {e.endDate}
-                </span>
-              </div>
-              <img src="/tick.png" alt="Tick icon" className="exp-tick" />
-            </div>
-          </div>
-        ))}
       </div>
       {/* --------------------------------------------------------------------------- */}
       {/* ----------------------------------REFERENCES------------------------------- */}
