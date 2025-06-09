@@ -161,7 +161,8 @@ export const data = {
     {
       title: "Algorithms & Data Structures for Beginners",
       organization: "neetcode.io",
-      github: "",
+      github:
+        "https://github.com/bidursapkota00/Algorithms-and-Data-Structures-for-Beginners",
     },
     {
       title: "System Design for Beginners",
@@ -180,16 +181,28 @@ export const data = {
       github: "https://github.com/bidursapkota00/sql",
     },
     {
-      title: "NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)",
+      title: "Complete React, Next.js & TypeScript Projects Course",
       organization: "Udemy",
       github:
-        "https://github.com/bidursapkota00/NodeJS---The-Complete-Guide-MVC-REST-APIs-GraphQL-Deno",
+        "https://github.com/bidursapkota00/Complete-React-Next.js-TypeScript-Projects-Course",
     },
     {
-      title: "Next JS: The Complete Developer's Guide",
-      organization: "Udemy",
-      github: "",
+      title: "NodeJS - The Complete Guide for REST APIs",
+      organization: "Codeyalaya",
+      github: "https://github.com/bidursapkota00/MEN-Stack-API-Development",
     },
+
+    // {
+    //   title: "NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)",
+    //   organization: "Udemy",
+    //   github:
+    //     "https://github.com/bidursapkota00/NodeJS---The-Complete-Guide-MVC-REST-APIs-GraphQL-Deno",
+    // },
+    // {
+    //   title: "Next JS: The Complete Developer's Guide",
+    //   organization: "Udemy",
+    //   github: "",
+    // },
     {
       title: "Learn HTML and CSS in 7 Days | Web Developer Bootcamp",
       organization: "Udemy",

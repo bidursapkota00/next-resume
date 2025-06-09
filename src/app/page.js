@@ -357,6 +357,17 @@ export default function Home() {
                 className="font exp-title no-underline"
               >
                 {e.title}
+                <img
+                  src="/external-link.png"
+                  // src="/link.png"
+                  alt="Link icon"
+                  className="exp-cal"
+                  style={{
+                    opacity: 0.8,
+                    marginRight: 0,
+                    marginLeft: "5pt",
+                  }}
+                ></img>
               </Link>
               <img
                 src="/tick.png"
