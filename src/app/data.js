@@ -5,8 +5,7 @@ export const data = {
   in: "https://www.linkedin.com/in/bidur-sapkota-b204142a8/",
   web: "https://www.bidursapkota.com.np/",
   tw: "#",
-  // job: "Lecturer",
-  job: "",
+  job: "Lecturer",
   profile: "/profile3.png",
   about:
     "Electronics, Communication and Information Engineering graduate with strong expertise in web and app development, embedded systems, and full-stack solutions. Currently working as a Lecturer at Asian College of Higher Studies, with a solid foundation in academic instruction and student mentorship. Previously served as a Web Developer at Dallotech, delivering dynamic, responsive websites using Next.js, GSAP, and API integrations. Demonstrated proficiency in building impactful projects such as a Smart Water Meter with payment integration and a Job Application platform. Backed by diverse training in FastAPI, Next.js, MySQL, and Flutter, and recognized for excellence with a first-place award at the Yatra 4.0 Hardware Model Exhibition. Passionate about IoT, ethical hacking, and continuously exploring cutting-edge tech to solve real-world problems",
