@@ -11,18 +11,6 @@ export default function Home() {
   job.splice(index + 1, 1, job[index + 1].substring(1));
   index = job.length - 1;
 
-  const [pageHeight, setPageHeight] = useState(297);
-
-  useEffect(() => {
-    function getPageHeightInMM() {
-      const pageHeightPx = document.querySelector(".page")?.scrollHeight || 0;
-      const mmPerPx = 25.4 / 96;
-      return Math.ceil(pageHeightPx * mmPerPx);
-    }
-
-    setPageHeight(getPageHeightInMM());
-  }, []);
-
   useEffect(() => {
     const portal = document.getElementsByTagName("nextjs-portal")[0];
     if (portal && portal.parentNode) {
@@ -576,11 +564,16 @@ export default function Home() {
       <style>{`
           @media print {
             @page {
-              size: 210mm ${pageHeight}mm;
-              margin: 0;
+              margin: 20px 0;
+            }
+            @page:first {
+            margin: 0;
             }
             .print_btn {
               display: none;
+            }
+            .exp-cont, .ref {
+              break-inside: avoid;
             }
           }
         `}</style>
