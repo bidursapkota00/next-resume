@@ -8,7 +8,8 @@ export const data = {
   job: "Lecturer",
   profile: "/profile3.png",
   about:
-    "Electronics, Communication and Information Engineering graduate with strong expertise in web and app development, embedded systems, and full-stack solutions. Currently working as a Lecturer at Asian College of Higher Studies, with a solid foundation in academic instruction and student mentorship. Previously served as a Web Developer at Dallotech, delivering dynamic, responsive websites using Next.js, GSAP, and API integrations. Demonstrated proficiency in building impactful projects such as a Smart Water Meter with payment integration and a Job Application platform. Backed by diverse training in FastAPI, Next.js, MySQL, Node.js and Flutter, and recognized for excellence with a first-place award at the Yatra 4.0 Hardware Model Exhibition. Passionate about IoT, ethical hacking, and continuously exploring cutting-edge tech to solve real-world problems",
+    "Electronics, Communication and Information Engineering graduate with two years of teaching experience and expertise in web and mobile app development, embedded systems, and full-stack solutions. Currently working as a Lecturer at Asian College of Higher Studies, with proven skills in academic instruction and student mentorship. Former Web Developer at Dallotech, where I delivered dynamic, responsive websites using Next.js, GSAP, and API integrations.",
+  // Developed impactful projects such as a Smart Water Meter with payment integration and a Job Application platform. Well-versed in FastAPI, Next.js, MySQL, Node.js, and Flutter, and awarded first place at the Yatra 4.0 Hardware Model Exhibition. Passionate about IoT, embedded systems, and ethical hacking, with a strong drive to explore and apply cutting-edge technologies to solve real-world problems.
   // "Lecturer at Asian College of Higher Studies. Previously worked as a web developer, specializing in modern JavaScript frameworks and scalable applications. Graduated in Electronics, Communication, and Information Engineering, combining technical expertise with a commitment to education and innovation. Adept at mentoring students, developing curriculum, and bridging the gap between theoretical concepts and real-world applications.",
   phone: "9865711881",
   email: "bidursapkota00@gmail.com",
@@ -91,16 +92,16 @@ export const data = {
     { name: "Hardware Coding", rating: 3 },
   ],
   projects: [
-    {
-      title: "Codeyalaya",
-      expertise: "Online Coding Institute",
-      description: [
-        "Create video lessons and starter / final code files for each lessons",
-        "Students can buy and watch courses through website or mobile app",
-        "Integrated payment system",
-      ],
-      link: "https://github.com/bidursapkota00/codeyalaya-web-frontend",
-    },
+    // {
+    //   title: "Codeyalaya",
+    //   expertise: "Online Coding Institute",
+    //   description: [
+    //     "Create video lessons and starter / final code files for each lessons",
+    //     "Students can buy and watch courses through website or mobile app",
+    //     "Integrated payment system",
+    //   ],
+    //   link: "https://github.com/bidursapkota00/codeyalaya-web-frontend",
+    // },
     {
       title: "Smart Water Meter",
       expertise: "College Major Project",
