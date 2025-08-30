@@ -565,9 +565,11 @@ export default function Home() {
           @media print {
             @page {
               margin: 20px 0;
+              margin-left: 50px
             }
             @page:first {
-            margin: 0;
+              margin: 0;
+              margin-left: 50px
             }
             .print_btn {
               display: none;
