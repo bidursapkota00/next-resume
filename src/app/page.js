@@ -74,6 +74,22 @@ export default function Home() {
             <div className="links">
               <div className="link">
                 <img
+                  src="/in.png"
+                  alt="Linkedin icon"
+                  className="social-icon"
+                  style={{ width: "20pt", height: "20pt", marginRight: "3pt" }}
+                />
+                <Link
+                  target="_blank"
+                  href={data.in}
+                  className="social-text font"
+                  style={{ marginTop: "2pt" }}
+                >
+                  Linkedin
+                </Link>
+              </div>
+              <div className="link">
+                <img
                   src="/github.png"
                   alt="Github icon"
                   className="social-icon"
@@ -278,70 +294,89 @@ export default function Home() {
           </div>
           <div className="skill-line"></div>
         </div>
-        <div className="skill-row">
-          {data.skills.map((s, i) => (
-            <div key={i} className="skill-cont">
-              <div className="svg-cont">
-                <svg className="svg" width="38" height="38" viewBox="0 0 38 38">
-                  <circle
-                    cx="19"
-                    cy="19"
-                    r="16"
-                    fill="none"
-                    stroke="#e5e5e5"
-                    strokeWidth="5"
-                    className="skill-circle"
-                  />
-                  {s.rating === 5 ? (
-                    <circle
-                      cx="19"
-                      cy="19"
-                      r="16"
-                      fill="none"
-                      stroke="#373D48"
-                      strokeWidth="5"
-                      className="skill-circle"
-                    />
-                  ) : (
-                    <path
-                      d={circle(s.rating)}
-                      stroke="#373D48"
-                      strokeWidth="5"
-                      strokeLinecap="round"
-                      fill="none"
-                    />
-                  )}
-                </svg>
-              </div>
-              <div className="skill-namec">
-                <span className="font skill-name">{s.name}</span>
-                <div className="stars">
-                  {[...Array(parseInt(s.rating))].map((_, j) => (
-                    <img
-                      key={j}
-                      src="/stary.png"
-                      alt="Filled star"
-                      className="star"
-                    />
-                  ))}
-                  {[...Array(5 - parseInt(s.rating))].map((_, j) => (
-                    <img
-                      key={j}
-                      src="/starb.png"
-                      alt="Empty star"
-                      className="star"
-                    />
-                  ))}
-                </div>
-              </div>
-            </div>
-          ))}
+        <div class="skills-container">
+          <dl class="skills-list font">
+            <dt>Operating System</dt>
+            <dd>Ubuntu, Windows</dd>
+
+            <dt>Microsoft Office Package</dt>
+            <dd>MS Word, MS PowerPoint, MS Excel, MS Access</dd>
+
+            <dt>Programming</dt>
+            <dd>
+              JavaScript, TypeScript, Python, C, C++, PHP, Java, Dart, Embedded
+              programming in ESP8266 microcontroller, HTML, CSS
+            </dd>
+
+            <dt>Library & Framework</dt>
+            <dd>
+              React.js, Next.js, Node.js, Express.js, Nest.js, React Native,
+              FastAPI, Django, Flutter, Wordpress
+            </dd>
+
+            <dt>Cloud</dt>
+            <dd>GCP, AWS</dd>
+
+            <dt>Database</dt>
+            <dd>MS-SQL, MySQL, MongoDB, PostgreSQL</dd>
+
+            <dt>Graphic Designing</dt>
+            <dd>Photoshop, Figma</dd>
+
+            <dt>IDE</dt>
+            <dd>Visual Studio Code, Jupyter Notebook</dd>
+          </dl>
         </div>
       </div>
       {/* --------------------------------------------------------------------------- */}
+      {/* --------------------------------------TEACHINGS / BLOGS---------------------------- */}
+      {/* --------------------------------------------------------------------------- */}
+      {data.trainings && data.trainings.length > 0 ? (
+        <div className="edu" style={{ marginTop: "30pt" }}>
+          <div className="edu-left"></div>
+          <div className="exp edu-edu">
+            <div className="exp-iconc">
+              <img src="/head.png" alt="Trainings icon" className="exp-icon" />
+            </div>
+            <h2 className="font exp-exp">Teachings / Blogs</h2>
+            {data.blogs.map((e, i) => (
+              <div key={i} className="exp-cont">
+                <div className="exp-titlec">
+                  <h3 className="font exp-title">{e.title}</h3>
+                  {e.url ? (
+                    <Link target="_blank" href={e.url} className="exp-date">
+                      <span className="font exp-datet">Live Link</span>
+                      <img
+                        src="/external-link.png"
+                        // src="/link.png"
+                        alt="Link icon"
+                        className="exp-cal"
+                        style={{
+                          opacity: 0.7,
+                          marginRight: 0,
+                          marginLeft: "5pt",
+                        }}
+                      ></img>
+                    </Link>
+                  ) : (
+                    <div style={{ height: "37pt" }} />
+                  )}
+                  <img
+                    src="/tick.png"
+                    alt="Tick icon"
+                    className="exp-tick"
+                    style={{ top: "8pt" }}
+                  />
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      ) : null}
+      {/* --------------------------------------------------------------------------- */}
       {/* ------------------------------------PROJECTS------------------------------- */}
       {/* --------------------------------------------------------------------------- */}
-      <div className="exp" style={{ marginTop: "1.5rem" }}>
+      <div className="exp" style={{ marginTop: "30pt" }}>
         <img src="/ell2.png" alt="Background ellipse" className="ell ell2" />
         <img src="/ell1.png" alt="Background ellipse" className="ell ell1" />
         <div className="exp-iconc">
@@ -357,6 +392,13 @@ export default function Home() {
                 className="font exp-title no-underline"
               >
                 {e.title}
+                {e.link && (
+                  <img
+                    src="/external-link.png"
+                    alt="Link Icon"
+                    style={{ width: "10pt", marginLeft: "5pt", opacity: 0.8 }}
+                  />
+                )}
               </Link>
               <img
                 src="/tick.png"
@@ -380,7 +422,7 @@ export default function Home() {
       {/* --------------------------------------------------------------------------- */}
       {/* --------------------------------------TRAININGS---------------------------- */}
       {/* --------------------------------------------------------------------------- */}
-      {data.trainings && data.trainings.length > 0 ? (
+      {/* {data.trainings && data.trainings.length > 0 ? (
         <div className="edu">
           <div className="edu-left"></div>
           <div className="exp edu-edu">
@@ -417,7 +459,7 @@ export default function Home() {
             ))}
           </div>
         </div>
-      ) : null}
+      ) : null} */}
       {/* --------------------------------------------------------------------------- */}
       {/* ------------------------------HOBBY/INTEREST/LANG-------------------------- */}
       {/* --------------------------------------------------------------------------- */}

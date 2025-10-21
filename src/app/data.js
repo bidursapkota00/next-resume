@@ -8,26 +8,13 @@ export const data = {
   job: "Lecturer",
   profile: "/profile3.png",
   about:
-    "Electronics, Communication and Information Engineering graduate with two years of teaching experience and expertise in web and mobile app development, embedded systems, and full-stack solutions. Currently working as a Lecturer at Asian College of Higher Studies, with proven skills in academic instruction and student mentorship. Former Web Developer at Dallotech, where I delivered dynamic, responsive websites using Next.js, GSAP, and API integrations.",
+    "Electronics, Communication and Information Engineering graduate with two and half years of teaching experience and expertise in web and mobile app development, embedded systems, and full-stack solutions. Currently working as a Lecturer at Asian College of Higher Studies, with proven skills in academic instruction and student mentorship. Former Web Developer at Dallotech, where I delivered dynamic, responsive websites using Next.js, GSAP, and API integrations.",
   // Developed impactful projects such as a Smart Water Meter with payment integration and a Job Application platform. Well-versed in FastAPI, Next.js, MySQL, Node.js, and Flutter, and awarded first place at the Yatra 4.0 Hardware Model Exhibition. Passionate about IoT, embedded systems, and ethical hacking, with a strong drive to explore and apply cutting-edge technologies to solve real-world problems.
   // "Lecturer at Asian College of Higher Studies. Previously worked as a web developer, specializing in modern JavaScript frameworks and scalable applications. Graduated in Electronics, Communication, and Information Engineering, combining technical expertise with a commitment to education and innovation. Adept at mentoring students, developing curriculum, and bridging the gap between theoretical concepts and real-world applications.",
   phone: "9865711881",
   email: "bidursapkota00@gmail.com",
   address: "Chunikhel, Lalitpur",
   experience: [
-    {
-      jobTitle: "Web Developer",
-      organization: "Dallotech pvt. ltd.",
-      description: [
-        "Develop full stack websites with Nextjs",
-        "Worked on projects like Pdf generation, Webflow, Landing Pages, Online job Application",
-        "GSAP Animations, FullStack Development",
-        "Convert figma design to code",
-        "API Integration",
-      ],
-      startDate: "Oct 2021",
-      endDate: "Jun 2022",
-    },
     {
       jobTitle: "Lecturer",
       organization: "Asian College of Higher Studies",
@@ -43,6 +30,17 @@ export const data = {
       endDate: "Now",
     },
     {
+      jobTitle: "Teaching Assistant",
+      organization: "National College of Engineering",
+      description: [
+        "Delivering lab lectures and tutorials",
+        "Setting and grading assignments, tests, and exams.",
+        "Providing support to students and other colleagues.",
+      ],
+      startDate: "May 2025",
+      endDate: "Now",
+    },
+    {
       jobTitle: "Web Development Trainer",
       organization: "Asian College of Higher Studies",
       description: [
@@ -54,15 +52,17 @@ export const data = {
       endDate: "Now",
     },
     {
-      jobTitle: "Teaching Assistant",
-      organization: "National College of Engineering",
+      jobTitle: "Web Developer",
+      organization: "Dallotech pvt. ltd.",
       description: [
-        "Delivering lab lectures and tutorials",
-        "Setting and grading assignments, tests, and exams.",
-        "Providing support to students and other colleagues.",
+        "Develop full stack websites with Nextjs",
+        "Worked on projects like Pdf generation, Webflow, Landing Pages, Online job Application",
+        "GSAP Animations, FullStack Development",
+        "Convert figma design to code",
+        "API Integration",
       ],
-      startDate: "May 2025",
-      endDate: "Now",
+      startDate: "Oct 2021",
+      endDate: "Jun 2022",
     },
   ],
   education: [
@@ -91,6 +91,64 @@ export const data = {
     { name: "App Development", rating: 4 },
     { name: "Hardware Coding", rating: 3 },
   ],
+  blogs: [
+    {
+      title: "Markdown Syntax Complete Guide",
+      url: "https://www.bidursapkota.com.np/blogs/markdown-syntax-complete-guide",
+    },
+    {
+      title: "JavaScript of Scripting Language, BCA",
+      url: "https://www.bidursapkota.com.np/blogs/javascript-of-scripting-language-bca",
+    },
+    {
+      title: "TypeScript Complete Guide",
+      url: "https://www.bidursapkota.com.np/blogs/typescript-complete-guide",
+    },
+    {
+      title: "React.js Complete Guide",
+      url: "https://www.bidursapkota.com.np/blogs/react-complete-guide",
+    },
+    {
+      title: "MongoDB, Express and Node Complete Guide",
+      url: "https://www.bidursapkota.com.np/blogs/mongodb-express-node-complete-guide",
+    },
+    {
+      title: "System Design Concepts for Beginners",
+      url: "https://www.bidursapkota.com.np/blogs/system-design-concepts-for-beginners",
+    },
+    {
+      title: "All",
+      url: "https://www.bidursapkota.com.np/blogs",
+    },
+    // {
+    //   title: "Design Patterns Complete Guide",
+    //   url: "https://www.bidursapkota.com.np/blogs/design-patterns-complete-guide",
+    // },
+    // {
+    //   title: "NestJs Complete Guide",
+    //   url: "https://www.bidursapkota.com.np/blogs/nestjs-complete-guide",
+    // },
+    // {
+    //   title: "React.js with Next.js Complete Guide",
+    //   url: "https://github.com/bidursapkota00/react-next",
+    // },
+    // {
+    //   title: "Git and GitHub Complete Guide",
+    //   url: "https://github.com/bidursapkota00/Git",
+    // },
+    // {
+    //   title: "JavaScript Complete Guide",
+    //   url: "https://github.com/bidursapkota00/Complete-JavaScript-Course",
+    // },
+    // {
+    //   title: "TailwindCSS Complete Guide",
+    //   url: "https://github.com/bidursapkota00/tailwind",
+    // },
+    // {
+    //   title: "HTML and CSS Complete Guide",
+    //   url: "https://github.com/bidursapkota00/HTML-and-CSS",
+    // },
+  ],
   projects: [
     // {
     //   title: "Codeyalaya",
@@ -102,16 +160,16 @@ export const data = {
     //   ],
     //   link: "https://github.com/bidursapkota00/codeyalaya-web-frontend",
     // },
-    {
-      title: "Smart Water Meter",
-      expertise: "College Major Project",
-      description: [
-        "Circuit design and implementation for measuring household drinking water consumption",
-        "Apk Development with integrated khalti payment gateway for clients",
-        "Web Development with dashboard for water service providers",
-      ],
-      link: "https://github.com/bidursapkota00/Major-Project",
-    },
+    // {
+    //   title: "Smart Water Meter",
+    //   expertise: "College Major Project",
+    //   description: [
+    //     "Circuit design and implementation for measuring household drinking water consumption",
+    //     "Apk Development with integrated khalti payment gateway for clients",
+    //     "Web Development with dashboard for water service providers",
+    //   ],
+    //   link: "https://github.com/bidursapkota00/Major-Project",
+    // },
     {
       title: "Online Job App",
       expertise: "Entire Frontend",
@@ -321,10 +379,17 @@ export const data = {
   references: [
     {
       name: "Pranaya Nakarmi",
-      job: "Academic coordinator",
+      job: "Academic Coordinator",
       company: "Asian College of Higher Studies",
       tel: "9841205966",
       email: "pranayanakarmi@gmail.com",
+    },
+    {
+      name: "Subash Panday",
+      job: "Sr. Lecturer / Coordinator",
+      company: "National College of Engineering",
+      tel: "9851115662",
+      email: "kavrelysubash@gmail.com",
     },
     {
       name: "Anup Pokhrel",

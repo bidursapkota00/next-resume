@@ -427,6 +427,29 @@ body,
   margin-right: 6pt;
 }
 
+.skills-list {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 12px 20px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.skills-list dt {
+  color: var(--black1);
+  font-weight: bold;
+  text-align: right;
+  font-size: 12pt;
+}
+
+.skills-list dd {
+  margin-left: 0;
+  text-align: left;
+  font-size: 12pt;
+  color: #606060;
+}
+
 /* TRAININGS */
 .ell {
   position: absolute;
@@ -543,6 +566,10 @@ body,
   border-bottom: 1pt solid #c4c4c4;
   margin-top: 15pt;
   min-width: 361pt;
+}
+
+.ref-ref:last-child {
+  margin-bottom: 15pt;
 }
 
 .ref-row {
